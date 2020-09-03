@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://kit.fontawesome.com/7c27ec1c65.js" crossorigin="anonymous"></script>
+    <form id="form2" action="自分のサイトURL" method="get">
+        <input id="sbox2"  id="s" name="s" type="text" placeholder="フリーワードを入力"/>
+        <button type="submit" id="sbtn2"><i class="fab fa-searchengin"></i></button>
+    </form>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>BioTope</title>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+
+<div id="container">
+    <div id="header">
+        <!--ロゴ-->
+        <h1><a href="Biotope.html"><img src="images/mori2.png" alt="bio"width="760"/></a></h1> 
+
+        <!--ヘッダーリンク-->
+        <div class='wrap'>
+            <nav class="menu">
+        
+            <li><a href=".html">プライバシーポリシー</a></li> 
+            <li><a href=".html">使用規約</a></li>  
+            <li><a href=".html">お問い合わせ</a></li>  
+            <li><a href=".html">international site</a></li>
+       
+                <!-- <a href=".html">プライバシーポリシー</a>
+                <a href=".html">使用規約</a>
+                <a href=".html">お問い合わせ</a>
+                <a href=".html">international site</a> -->
+            </nav>
+        <div class="under_border"></div>
+        </div>
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $(".menu a").hover(
+                    function (){
+                        const hover_width = $(this).width();
+                        const left_pos = $(this).offset().left;
+                        
+                        $('.under_border').css({
+                            'width':hover_width,
+                            'left':left_pos
+
+                        });
+                    },
+                    function(){
+                    }
+                );
+            });
+        </script> -->
+
+    </div>
+        <!--グローバルメニュー-->
+    <div id="global_navi">
+        <ul>
+            <li><a href=".html"><img src="images/li5.png" alt = "製品情報" width="145"height="auto"/></a></li> 
+            <li><a href=".html"><img src="images/li4.png" alt = "サポートセンター" width="145"height="auto"/></a></li>  
+            <li><a href=".html"><img src="images/li3.png" alt = "購入" width="145"height="auto"/></a></li>  
+            <li><a href=".html"><img src="images/li2.png" alt = "企業情報" width="145"height="auto"/></a></li>  
+            <li><a href=".html"><img src="images/li1.png" alt = "パートナー" width="145"height="auto"/></a></li>
+         </ul>
+    </div>
+    
+    
+        <!--キービジュアル-->
+    <div id="main_visual">
+            <h2><img id = "gyaru" src="images/gyaru1.jpg" alt = "Industry Technology" width="760"/></h2>
+            <script>
+                var pics_src = new Array("images/gyaru1.jpg","images/gyaru5.jpg","images/gyaru4.jpg","images/gyaru2.jpg");
+                var num = -1;
+     
+                slideshow_timer();
+     
+                function slideshow_timer(){
+                    if (num == 3){
+                        num = 0;
+                    } 
+                    else {
+                        num ++;
+                    }
+                    document.getElementById("gyaru").src=pics_src[num];
+                    setTimeout("slideshow_timer()",3000); 
+                }
+                </script>
+    </div>
+    
+    
+        <!--企業理念-->
+    <div id="content">
+        <h3><img src="images/rinen.png" alt="rinen" width="430" height="25"/></h3>
+        <p> 私たちは農作物や海産物を提供する空間「<strong>BioTope</strong>」より
+            多くの生産者とお客様を繋ぐ快適な環境へと導く努力をしています。<br/>
+            また、自然の創造物をスムーズにお客様へ提供することを目指して、日々努力をしております。
+        </p>
+    </div>
+    
+        <!--info-->
+    <div id="info">
+        <h3><img src="images/info.png" alt="info" width="330" height="25"/></h3>
+        <ul class="info_list">
+            <li><a href=".html">コロナウイルス救済活動にご協力ください</a></li>
+            <li><a href=".html">Biotopeモバイルフォン事業長崎に展開</a></li>
+            <li><a href=".html">Biotope本社を福岡に移転</a></li>
+        </ul>
+    </div>
+    
+    
+        <!--フッター-->
+    <div id="footer">
+        <hr />
+        <p><a href=".html">このサイトについて&nbsp;&nbsp;&nbsp;このページをプリント</a></p>
+        <address>＆copy;Copyright 2010 Biotope inc</address>
+    
+    
+    </div>
+</div>
+</body>
+</html>

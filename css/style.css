@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 760px;
+    margin: 0 auto;
+}
+/*基本タグの初期化*/
+p{
+    line-height: 30px;
+}
+em{
+    font-style: normal;
+}
+strong{
+    font-weight: normal;
+}
+address{
+    font-style: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    border: 0;
+}
+.info_list{
+    margin-left: 30px;
+    list-style-image: url(../images/marker.gif);
+}
+
+/*-----------------------------
+header
+-----------------------------*/
+#form2{
+    position:relative;
+    max-width:300px;	
+    margin-bottom:20px;
+    }
+    #sbox2{
+    height:30px;
+    width: 300px;
+    padding:0 10px; 
+    position:absolute; 
+    left:0;
+    top:0; 
+    border-radius:2px;
+    outline:0;
+    color: #ffffff;	
+    }
+    #sbtn2{
+    height:50px;
+    position:absolute; 
+    left:250px;/*アイコン左右の位置調整*/
+    top:0;
+    background:none;
+    color:#666;
+    border:none;
+    font-size:20px;/*アイコンサイズ*/
+    }
+    #sbtn5:hover{
+    color:#7fbfff;
+    }
+
+#header{
+    width: 760ps;
+    width: 100vw;
+    position: relative;
+}
+#header ul{
+    font-size: 13px;
+    text-align: right; 
+    position:absolute;
+    top:145px;
+    left:350px;
+}
+#header li{
+    display: inline;
+}
+.wrap{
+    position: relative;
+}
+.under_border{
+    position: absolute;
+    bottom: -2px;
+    width: 0px;
+    height: 4px;
+    top: 145px;
+    transition:all 0.5s;
+}
+menu{
+    margin-right: 0;
+    margin-top: 250px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/*-----------------------------
+global_navi
+-----------------------------*/
+#global_navi{
+    width: 760px;
+}
+
+#global_navi ul{
+    list-style: none;
+    text-align: center;
+}
+#global_navi li{
+    
+    display: inline-block;
+}
+
+/* .my-parts ul li {
+	display: table-cell;
+	box-sizing: border-box;
+}
+.my-parts ul li a {
+	display: block;
+	padding: .4em .8em;
+	text-decoration: none;
+	text-align: center;
+} */
+
+/*-----------------------------
+main_visual
+-----------------------------*/
+#main_visual{
+    width: 760px;
+}
+
+
+/*-----------------------------
+content
+-----------------------------*/
+#content{
+    width: 435px;
+    float: left;
+    font-size: 13px;
+}
+
+/*-----------------------------
+info
+-----------------------------*/
+#info{
+    width: 325px;
+    float: left;
+    font-size: 14px;
+}
+
+
+/*-----------------------------
+footer
+-----------------------------*/
+#footer{
+    width: 760px;
+    clear: both;
+    font-size: 12px;
+}

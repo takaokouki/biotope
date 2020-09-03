@@ -1,0 +1,16 @@
+/*基本タグの初期化*/
+p{
+    line-height: 30px;
+}
+em{
+    font-style: normal;
+}
+strong{
+    font-weight: normal;
+}
+address{
+    font-style: normal;
+}
+ul{
+    list-style: none;
+}
